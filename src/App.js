@@ -2,7 +2,6 @@ import "./App.css";
 import { Home } from "./views";
 import { Route, Routes } from "react-router-dom";
 import { Suspense } from "react";
-import Two from "./views/Two";
 
 const App = () => {
   // const dispatch = useDispatch();
@@ -46,7 +45,6 @@ const App = () => {
     >
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/two" element={<Two />} />
       </Routes>
     </Suspense>
   );
