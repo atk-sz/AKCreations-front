@@ -16,7 +16,7 @@ const Home = () => {
           fontSize: "100px",
         }}
       >
-        Welcome to RK Creations
+        Welcome to AK Creations
       </h1>
     </div>
   );
